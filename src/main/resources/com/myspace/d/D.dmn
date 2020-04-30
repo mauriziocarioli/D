@@ -19,9 +19,9 @@
       <dmn:typeRef>Y</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:decision id="_70C784FA-7EC9-4170-ADFE-09CBE64C4892" name="Z">
+  <dmn:decision id="_70C784FA-7EC9-4170-ADFE-09CBE64C4892" name="Z.x.a">
     <dmn:extensionElements/>
-    <dmn:variable id="_1B91C242-6A0A-49D1-82EF-D707BC1E2D32" name="Z" typeRef="Z"/>
+    <dmn:variable id="_1B91C242-6A0A-49D1-82EF-D707BC1E2D32" name="Z.x.a" typeRef="number"/>
     <dmn:informationRequirement id="_2133B2F1-1616-4D6E-80F7-5FB055B613B0">
       <dmn:requiredInput href="#_FEC1CD5B-6DBE-44E9-AA4A-CAFD459DA38A"/>
     </dmn:informationRequirement>
@@ -31,12 +31,16 @@
           <dmn:text>In</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_1931377B-A029-4B39-958B-3B08FDF8240F" typeRef="Z"/>
+      <dmn:output id="_1931377B-A029-4B39-958B-3B08FDF8240F" name="Z.x.a" typeRef="number"/>
+      <dmn:output id="_761132CC-C3DC-4350-8B6B-19701DD13727" name="Z.y.b" typeRef="number"/>
       <dmn:rule id="_CB6B3095-78F5-4993-B072-055A0CF05AE0">
         <dmn:inputEntry id="_B74FC7B3-75BC-436E-9E5F-AFD8C91F0730">
           <dmn:text>0</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_73307967-5707-4612-AF1A-1F89E2BFA2BE">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_B59A5CA9-F6F9-40E4-BB0E-F905DAD6392F">
           <dmn:text></dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
@@ -52,6 +56,7 @@
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_ADCFC2EB-EAB6-4095-8202-DACC3352E425">
             <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
