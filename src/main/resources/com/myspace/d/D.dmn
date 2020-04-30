@@ -38,10 +38,10 @@
           <dmn:text>0</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_73307967-5707-4612-AF1A-1F89E2BFA2BE">
-          <dmn:text></dmn:text>
+          <dmn:text>1</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_B59A5CA9-F6F9-40E4-BB0E-F905DAD6392F">
-          <dmn:text></dmn:text>
+          <dmn:text>-1</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
     </dmn:decisionTable>
